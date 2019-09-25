@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/javaEE2.iml" filepath="$PROJECT_DIR$/javaEE2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/layuiDemo/layuiDemo.iml" filepath="$PROJECT_DIR$/layuiDemo/layuiDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tomcat_servlet/tomcat_servlet.iml" filepath="$PROJECT_DIR$/tomcat_servlet/tomcat_servlet.iml" />
+    </modules>
+  </component>
+</project>

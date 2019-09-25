@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!--导入thymeleaf名称空间-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>成功</h1>
+<!--th:text 将div里面的文本内容审核职位指定的内容-->
+<div th:text="${msg}">这是显示欢迎信息</div>
+<div th:text="${h}">对对对</div>
+<div th:utext="${h}">急急急</div>
+<!--th遍历-->
+<h4 th:text="${user}" th:each="user:${list}" ></h4>
+<h4 th:each="user:${list}">[[${user}]]</h4>
+</body>
+</html>
