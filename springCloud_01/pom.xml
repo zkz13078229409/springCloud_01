@@ -19,6 +19,7 @@
         <module>Hystrix</module>
         <module>Config</module>
         <module>client</module>
+        <module>configServer</module>
     </modules>
 
     <parent>
